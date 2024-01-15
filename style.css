@@ -1,0 +1,120 @@
+.header{
+    background-color: #fafafa;
+    clear: both;
+    height: 50px;
+    width: auto;
+    /* position: fixed;
+    width: 100%; */
+}
+.name{
+
+}
+.name h2 a{
+    color: #a55eea;
+    text-decoration: none;
+    font-family: 'Lobster', cursive; 
+    transition: .5s;
+}
+.name h2 a:hover{
+    color: #8854d0;
+}
+.manu{
+
+    text-align: right;
+   
+}
+.manu ul{
+ 
+
+}
+.manu ul li{
+    display: inline-block;
+    padding-right: 20px;
+    line-height: 50px;
+    
+}
+.manu ul li a{
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .5s;
+}
+.manu ul li a:hover{
+    color: #a55eea; 
+}
+
+/* Slider css */
+.slider{
+background-color: #ffffff;
+}
+
+.slider img{
+max-width: 100%;
+}
+
+.image-text{
+margin-top: 140px;
+}
+.image-text h3{
+    color: rgba(0, 0, 0, .5);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.image-text h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #0f0f0f;
+}
+
+.image-text h2 span{
+    font-weight: 200;
+    color: rgba(0, 0, 0, .5);
+}
+
+.image-text p{
+    font-size:16px;
+  
+}
+
+.icn{
+    border-radius: 15px 0 15px 0;
+}
+.list-item{}
+.list-item li{
+    text-decoration: none;
+    list-style: none;
+}
+.about-me{
+    background: #fafafa;
+}
+.academic{
+    background: #fafafa;
+}
+p{
+    text-align: justify;
+}
+/* Interest section  */
+.imgg{
+    position: relative;
+
+}
+.imagge-0::after{
+    height: 73.7%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 2px 2px 0 0 ;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.imagge-0:hover::after{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+} 
